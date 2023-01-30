@@ -1,6 +1,11 @@
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    background-color: var(--background-color-primary);
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 :root {
@@ -10,7 +15,12 @@ body {
     --secondary-accent-color: #4D5AE5;
     --dark-background-text: #FFFFFF;
     --light-background-color: #F4F4FD;
+    --background-color-primary: #ffffff;
+    --color-text-footer: #e7e9fc;
+
+  
 }
+
 
 .list {
     list-style: none;
@@ -32,27 +42,29 @@ body {
     line-height: 1.5;
 }
 
+
 /*====== HEADER ======= */
 
 .header {
     background-color: var(--dark-background-text);
 }
 .logo {
+    
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    width: 44px;
+    height: 24px;
 }
 
 .web {
     color: var(--secondary-accent-color);
+    color: #4d5ae5;
 }
 
-.studio {
-    color: var(--primary-text-color);
-}
 
 .menu-link {
     font-weight: 500;
@@ -103,8 +115,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--dark-background-text);
     cursor: pointer;
@@ -132,11 +142,21 @@ body {
 }
 
 .suptitleA{
-color: var(--primary-text-color)
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
 }
 
 .txtA {
 color: var(--secondary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
 
 /* ======= SERVICES ======= */
@@ -154,6 +174,11 @@ color: var(--primary-text-color);
 
 .team {
     background-color: var(--light-background-color);
+left: 639px;
+top: 1668px;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
 }
 
 .team-title {
@@ -168,27 +193,36 @@ color: var(--primary-text-color);
 .suptitleT {
 text-align: center;
 color: var(--primary-text-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
 }
 
 .txtT {
 text-align: center;
 color: var(--secondary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
 
 /* ======= FOOTER ======== */
 
-.page-footer {
+.footer {
     background-color: var(--primary-text-color);
 }
 
-.footer-logo-first {
+.web {
     color:var(--secondary-accent-color);
 }
 
-.footer-logo-second {
+.studio {
     color:var(--light-background-color);
 }
 
+.txt-footer {
+    color: var(--color-text-footer);
+}
 .footer-description {
 letter-spacing: 0.02em;
 color: #E7E9FC;
@@ -196,15 +230,12 @@ color: #E7E9FC;
 
 /* ======= PORTFOLIO PAGE =========*/
 
-/* ====== Portfolio buttons ======= */
 
 .buttons-btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: var(--secondary-accent-color);
     background-color: var(--light-background-color);
@@ -217,6 +248,16 @@ color: #E7E9FC;
     background-color: var(--primary-accent-color);
 }
 
+.suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
 /* ====== Work examples ======= */
 
 .work-name {
@@ -225,4 +266,7 @@ color: var(--primary-text-color);
 
 .work-description {
 color: var(--secondary-text-color);
+}
+.logo-footer{
+    background: #2E2F42;
 }
