@@ -140,20 +140,13 @@ body {
 
 .suptitleA{
 color: var(--primary-text-color);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+
 }
 
 .txtA {
 color: var(--secondary-text-color);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 24px;
 }
 
 /* ======= SERVICES ======= */
@@ -171,11 +164,6 @@ color: var(--primary-text-color);
 
 .team {
     background-color: var(--light-background-color);
-left: 639px;
-top: 1668px;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
 }
 
 .team-title {
@@ -192,15 +180,14 @@ text-align: center;
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+
 }
 
 .txtT {
 text-align: center;
 color: var(--secondary-text-color);
-font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+
 }
 
 /* ======= FOOTER ======== */
@@ -263,7 +250,6 @@ color: #E7E9FC;
     line-height: 24px;
 }
 .txt {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
